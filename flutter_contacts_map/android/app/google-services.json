@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "860131962313",
+    "project_id": "myproject-448018",
+    "storage_bucket": "myproject-448018.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860131962313:android:f6c169cb88ffd2fc764c18",
+        "android_client_info": {
+          "package_name": "com.example.flutter_contacts_map"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjk7-u7k2xjgZO3YjqC-6zsYvTp_jBprU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
