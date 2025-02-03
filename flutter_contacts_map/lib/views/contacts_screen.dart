@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-//import 'package:provider/provider.dart';
 import '../controllers/contact_controller.dart';
 import '../models/contact.dart';
 
@@ -11,6 +10,7 @@ class ContactsScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
       appBar: AppBar(title: Text('Contatos')),
       body: StreamBuilder<List<Contact>>(
         stream: contactController.getContacts(),
@@ -52,6 +52,7 @@ class ContactsScreen extends StatelessWidget {
           );
         },
       ),
+      
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           _showContactDialog(context, null);

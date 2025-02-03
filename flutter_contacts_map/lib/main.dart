@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'controllers/auth_controller.dart';
 import 'views/login_screen.dart';
 //import 'views/home_screen.dart';
+
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -25,9 +26,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Login',
-      theme: ThemeData(primarySwatch: Colors.blue),
-      home: LoginScreen(),//Tela de login
+      title: 'Flutter Aplication',
+      theme: ThemeData(primarySwatch: Colors.yellow),
+      home: LoginScreen(),
     );
   }
 }
